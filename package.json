@@ -1,0 +1,28 @@
+{
+  "name": "spinner-favicon",
+  "description": "Custom loading spinner animation as the favicon.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack"
+  },
+  "author": "https://github.com/trandaison",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trandaison/spinner-favicon.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trandaison/spinner-favicon/issues"
+  },
+  "homepage": "https://github.com/trandaison/spinner-favicon#readme",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.7"
+  }
+}
